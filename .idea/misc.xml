@@ -38,6 +38,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/currency/pom.xml" />
+        <option value="$PROJECT_DIR$/generated/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -157,4 +163,5 @@
     </configuration>
     <list size="0" />
   </component>
+  <component name="WebServicesPlugin" addRequiredLibraries="true" />
 </project>

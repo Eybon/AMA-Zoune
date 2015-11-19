@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="bank:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/bank_jar</output-path>
+    <root id="archive" name="bank.jar">
+      <element id="module-output" name="bank" />
+      <element id="module-output" name="currency" />
+      <element id="module-output" name="exceptions" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.4/gson-2.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

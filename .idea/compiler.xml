@@ -23,14 +23,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="bank" />
         <module name="common" />
+        <module name="currency" />
+        <module name="exceptions" />
         <module name="provider" />
         <module name="store" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AMA-Zoune" target="1.7" />
+      <module name="bank" target="1.7" />
       <module name="common" target="1.7" />
+      <module name="currency" target="1.7" />
+      <module name="exceptions" target="1.7" />
       <module name="provider" target="1.7" />
       <module name="store" target="1.7" />
     </bytecodeTargetLevel>

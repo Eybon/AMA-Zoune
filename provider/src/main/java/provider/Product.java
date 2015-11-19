@@ -14,11 +14,33 @@ import common.IProduct;
 public class Product implements IProduct
 {
 
+    /**
+     * The name of the product
+     */
 	String m_name;
+
+    /**
+     * the description of the product
+     */
 	String m_description;
+
+    /**
+     * the price of the product
+     */
 	double m_price;
+
+    /**
+     * the quantity available
+     */
     int m_quantity;
 
+    /**
+     * Constructor
+     * @param name the name of the product
+     * @param desc the description of the product
+     * @param price the price of the product
+     * @param quantity the quantity available
+     */
 	public Product(String name,String desc,double price, int quantity){
 		m_name = name;
 		m_description = desc;
@@ -29,17 +51,17 @@ public class Product implements IProduct
 
     @Override
     public String getName() {
-        return null;
+        return m_name;
     }
 
     @Override
     public double getPrice() {
-        return 0;
+        return m_price;
     }
 
     @Override
     public String getDescription() {
-        return null;
+        return m_description;
     }
 
     @Override
@@ -47,6 +69,10 @@ public class Product implements IProduct
         return m_quantity;
     }
 
+    /**
+     * Reduce a product quantity
+     * @param quantity the quantity to deduce
+     */
     public void removeQuantity(int quantity) {
         m_quantity -= quantity;
     }

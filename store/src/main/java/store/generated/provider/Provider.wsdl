@@ -1,0 +1,201 @@
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:ns="http://provider" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:ax2431="http://common/xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://provider">
+    <wsdl:documentation>Provider</wsdl:documentation>
+    <wsdl:types>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://common/xsd">
+            <xs:complexType abstract="true" name="IProduct">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="description" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="price" type="xs:double"/>
+                    <xs:element minOccurs="0" name="quantity" type="xs:int"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:schema>
+        <xs:schema xmlns:ax2432="http://common/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://provider">
+            <xs:import namespace="http://common/xsd"/>
+            <xs:element name="getListProduct">
+                <xs:complexType>
+                    <xs:sequence/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getListProductResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ax2432:IProduct"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getProduct">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="identifier" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getProductResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="ax2432:IProduct"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="orderProduct">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="identifier" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="amount" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="orderProductResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="getProductRequest">
+        <wsdl:part name="parameters" element="ns:getProduct"/>
+    </wsdl:message>
+    <wsdl:message name="getProductResponse">
+        <wsdl:part name="parameters" element="ns:getProductResponse"/>
+    </wsdl:message>
+    <wsdl:message name="orderProductRequest">
+        <wsdl:part name="parameters" element="ns:orderProduct"/>
+    </wsdl:message>
+    <wsdl:message name="orderProductResponse">
+        <wsdl:part name="parameters" element="ns:orderProductResponse"/>
+    </wsdl:message>
+    <wsdl:message name="getListProductRequest">
+        <wsdl:part name="parameters" element="ns:getListProduct"/>
+    </wsdl:message>
+    <wsdl:message name="getListProductResponse">
+        <wsdl:part name="parameters" element="ns:getListProductResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="ProviderPortType">
+        <wsdl:operation name="getProduct">
+            <wsdl:input message="ns:getProductRequest" wsaw:Action="urn:getProduct"/>
+            <wsdl:output message="ns:getProductResponse" wsaw:Action="urn:getProductResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="orderProduct">
+            <wsdl:input message="ns:orderProductRequest" wsaw:Action="urn:orderProduct"/>
+            <wsdl:output message="ns:orderProductResponse" wsaw:Action="urn:orderProductResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getListProduct">
+            <wsdl:input message="ns:getListProductRequest" wsaw:Action="urn:getListProduct"/>
+            <wsdl:output message="ns:getListProductResponse" wsaw:Action="urn:getListProductResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="ProviderSoap11Binding" type="ns:ProviderPortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="getProduct">
+            <soap:operation soapAction="urn:getProduct" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="orderProduct">
+            <soap:operation soapAction="urn:orderProduct" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getListProduct">
+            <soap:operation soapAction="urn:getListProduct" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="ProviderSoap12Binding" type="ns:ProviderPortType">
+        <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="getProduct">
+            <soap12:operation soapAction="urn:getProduct" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="orderProduct">
+            <soap12:operation soapAction="urn:orderProduct" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getListProduct">
+            <soap12:operation soapAction="urn:getListProduct" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="ProviderHttpBinding" type="ns:ProviderPortType">
+        <http:binding verb="POST"/>
+        <wsdl:operation name="getProduct">
+            <http:operation location="getProduct"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="orderProduct">
+            <http:operation location="orderProduct"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getListProduct">
+            <http:operation location="getListProduct"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="Provider">
+        <wsdl:port name="ProviderHttpSoap11Endpoint" binding="ns:ProviderSoap11Binding">
+            <soap:address location="http://192.168.0.12:9763/services/Provider.ProviderHttpSoap11Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="ProviderHttpsSoap11Endpoint" binding="ns:ProviderSoap11Binding">
+            <soap:address location="https://192.168.0.12:9443/services/Provider.ProviderHttpsSoap11Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="ProviderHttpSoap12Endpoint" binding="ns:ProviderSoap12Binding">
+            <soap12:address location="http://192.168.0.12:9763/services/Provider.ProviderHttpSoap12Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="ProviderHttpsSoap12Endpoint" binding="ns:ProviderSoap12Binding">
+            <soap12:address location="https://192.168.0.12:9443/services/Provider.ProviderHttpsSoap12Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="ProviderHttpEndpoint" binding="ns:ProviderHttpBinding">
+            <http:address location="http://192.168.0.12:9763/services/Provider.ProviderHttpEndpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="ProviderHttpsEndpoint" binding="ns:ProviderHttpBinding">
+            <http:address location="https://192.168.0.12:9443/services/Provider.ProviderHttpsEndpoint/"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>
