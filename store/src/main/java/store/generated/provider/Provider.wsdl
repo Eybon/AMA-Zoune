@@ -1,8 +1,16 @@
-<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:ns="http://provider" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:ax2431="http://common/xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://provider">
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:ns="http://provider" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ax2483="http://provider/xsd" xmlns:ax2485="http://provider.exceptions/xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://provider">
     <wsdl:documentation>Provider</wsdl:documentation>
     <wsdl:types>
-        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://common/xsd">
-            <xs:complexType abstract="true" name="IProduct">
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://provider.exceptions/xsd">
+            <xs:complexType name="ProductNotFoundException">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="SoldOutException">
+                <xs:sequence/>
+            </xs:complexType>
+        </xs:schema>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://provider/xsd">
+            <xs:complexType name="Product">
                 <xs:sequence>
                     <xs:element minOccurs="0" name="description" nillable="true" type="xs:string"/>
                     <xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/>
@@ -11,8 +19,9 @@
                 </xs:sequence>
             </xs:complexType>
         </xs:schema>
-        <xs:schema xmlns:ax2432="http://common/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://provider">
-            <xs:import namespace="http://common/xsd"/>
+        <xs:schema xmlns:ax2484="http://provider/xsd" xmlns:ax2486="http://provider.exceptions/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://provider">
+            <xs:import namespace="http://provider/xsd"/>
+            <xs:import namespace="http://provider.exceptions/xsd"/>
             <xs:element name="getListProduct">
                 <xs:complexType>
                     <xs:sequence/>
@@ -21,7 +30,14 @@
             <xs:element name="getListProductResponse">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ax2432:IProduct"/>
+                        <xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ax2484:Product"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="ProviderProductNotFoundException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="ProductNotFoundException" nillable="true" type="ax2486:ProductNotFoundException"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
@@ -35,7 +51,14 @@
             <xs:element name="getProductResponse">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element minOccurs="0" name="return" nillable="true" type="ax2432:IProduct"/>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="ax2484:Product"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="ProviderSoldOutException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="SoldOutException" nillable="true" type="ax2486:SoldOutException"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
@@ -62,11 +85,17 @@
     <wsdl:message name="getProductResponse">
         <wsdl:part name="parameters" element="ns:getProductResponse"/>
     </wsdl:message>
+    <wsdl:message name="ProviderProductNotFoundException">
+        <wsdl:part name="parameters" element="ns:ProviderProductNotFoundException"/>
+    </wsdl:message>
     <wsdl:message name="orderProductRequest">
         <wsdl:part name="parameters" element="ns:orderProduct"/>
     </wsdl:message>
     <wsdl:message name="orderProductResponse">
         <wsdl:part name="parameters" element="ns:orderProductResponse"/>
+    </wsdl:message>
+    <wsdl:message name="ProviderSoldOutException">
+        <wsdl:part name="parameters" element="ns:ProviderSoldOutException"/>
     </wsdl:message>
     <wsdl:message name="getListProductRequest">
         <wsdl:part name="parameters" element="ns:getListProduct"/>
@@ -78,10 +107,13 @@
         <wsdl:operation name="getProduct">
             <wsdl:input message="ns:getProductRequest" wsaw:Action="urn:getProduct"/>
             <wsdl:output message="ns:getProductResponse" wsaw:Action="urn:getProductResponse"/>
+            <wsdl:fault message="ns:ProviderProductNotFoundException" name="ProviderProductNotFoundException" wsaw:Action="urn:getProductProviderProductNotFoundException"/>
         </wsdl:operation>
         <wsdl:operation name="orderProduct">
             <wsdl:input message="ns:orderProductRequest" wsaw:Action="urn:orderProduct"/>
             <wsdl:output message="ns:orderProductResponse" wsaw:Action="urn:orderProductResponse"/>
+            <wsdl:fault message="ns:ProviderProductNotFoundException" name="ProviderProductNotFoundException" wsaw:Action="urn:orderProductProviderProductNotFoundException"/>
+            <wsdl:fault message="ns:ProviderSoldOutException" name="ProviderSoldOutException" wsaw:Action="urn:orderProductProviderSoldOutException"/>
         </wsdl:operation>
         <wsdl:operation name="getListProduct">
             <wsdl:input message="ns:getListProductRequest" wsaw:Action="urn:getListProduct"/>
@@ -98,6 +130,9 @@
             <wsdl:output>
                 <soap:body use="literal"/>
             </wsdl:output>
+            <wsdl:fault name="ProviderProductNotFoundException">
+                <soap:fault use="literal" name="ProviderProductNotFoundException"/>
+            </wsdl:fault>
         </wsdl:operation>
         <wsdl:operation name="orderProduct">
             <soap:operation soapAction="urn:orderProduct" style="document"/>
@@ -107,6 +142,12 @@
             <wsdl:output>
                 <soap:body use="literal"/>
             </wsdl:output>
+            <wsdl:fault name="ProviderSoldOutException">
+                <soap:fault use="literal" name="ProviderSoldOutException"/>
+            </wsdl:fault>
+            <wsdl:fault name="ProviderProductNotFoundException">
+                <soap:fault use="literal" name="ProviderProductNotFoundException"/>
+            </wsdl:fault>
         </wsdl:operation>
         <wsdl:operation name="getListProduct">
             <soap:operation soapAction="urn:getListProduct" style="document"/>
@@ -128,6 +169,9 @@
             <wsdl:output>
                 <soap12:body use="literal"/>
             </wsdl:output>
+            <wsdl:fault name="ProviderProductNotFoundException">
+                <soap12:fault use="literal" name="ProviderProductNotFoundException"/>
+            </wsdl:fault>
         </wsdl:operation>
         <wsdl:operation name="orderProduct">
             <soap12:operation soapAction="urn:orderProduct" style="document"/>
@@ -137,6 +181,12 @@
             <wsdl:output>
                 <soap12:body use="literal"/>
             </wsdl:output>
+            <wsdl:fault name="ProviderSoldOutException">
+                <soap12:fault use="literal" name="ProviderSoldOutException"/>
+            </wsdl:fault>
+            <wsdl:fault name="ProviderProductNotFoundException">
+                <soap12:fault use="literal" name="ProviderProductNotFoundException"/>
+            </wsdl:fault>
         </wsdl:operation>
         <wsdl:operation name="getListProduct">
             <soap12:operation soapAction="urn:getListProduct" style="document"/>

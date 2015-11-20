@@ -1,10 +1,7 @@
 package bank;
 
 import bank.generated.CurrencyConvertorStub;
-import exceptions.bank.BankAccountNotFoundException;
-import exceptions.bank.CreditCardNotFoundException;
-import exceptions.bank.CurrencyChangeRateErrorException;
-import exceptions.bank.NotEnoughMoneyException;
+import exceptions.bank.*;
 import org.apache.axis2.AxisFault;
 
 import java.rmi.RemoteException;
@@ -34,12 +31,23 @@ public class Bank {
     /**
      * List of credit cards
      */
-    private Map<String, CreditCard> creditCards;
+    private static Map<String, CreditCard> creditCards;
 
     /**
      * List of bank accounts
      */
-    private Map<String, BankAccount> bankAccounts;
+    private static Map<String, BankAccount> bankAccounts;
+
+    /**
+     * TEST PURPOSE
+     */
+    static {
+        creditCards = new HashMap<String, CreditCard>();
+        creditCards.put("123412341234123412", new CreditCard("123412341234123412", "M BERGEON MAXIME", 01, 16, "111"));
+
+        bankAccounts = new HashMap<String, BankAccount>();
+        bankAccounts.put("123412341234123412", new BankAccount());
+    }
 
     public static void main(String[] args) {
 
@@ -50,12 +58,6 @@ public class Bank {
      * @throws AxisFault exception
      */
     public Bank() throws AxisFault {
-        creditCards = new HashMap<String, CreditCard>();
-        creditCards.put("123412341234123412", new CreditCard("123412341234123412", "M BERGEON MAXIME", 01, 16, "111"));
-
-        bankAccounts = new HashMap<String, BankAccount>();
-        bankAccounts.put("123412341234123412", new BankAccount());
-
         currencyStub = new CurrencyConvertorStub(providerEndpoint);
     }
 
@@ -94,14 +96,24 @@ public class Bank {
     /**
      * Check if a credit card is valid or not
      * @param creditcard the number of the credit card to use
+     * @param limitmonth the limit date written on the card (month)
+     * @param limityear the limit date written on the card (year)
+     * @param owner the owner of the credit card
+     * @param CCV the 3 secret symbols on the card
      * @return true if the credit card does exist
      * @throws CreditCardNotFoundException if the credit card does not exist
+     * @throws WrongCreditCardDetailsException if the details of the card are not those given
      */
-    public boolean checkCreditCard(String creditcard) throws CreditCardNotFoundException {
+    public boolean checkCreditCard(String creditcard, int limitmonth, int limityear, String owner, String CCV) throws CreditCardNotFoundException, WrongCreditCardDetailsException {
         CreditCard card = creditCards.get(creditcard);
         if (card == null) {
             throw new CreditCardNotFoundException();
         }
+
+        if (!card.doesVerify(owner, limitmonth, limityear, CCV)) {
+            throw new WrongCreditCardDetailsException();
+        }
+
         return true;
     }
 
@@ -115,7 +127,7 @@ public class Bank {
      * @throws RemoteException exception for remote computation
      * @throws NotEnoughMoneyException if the bank account does not have enough money
      */
-    public boolean doTransaction(String creditcard, String currency, int amount) throws BankAccountNotFoundException, RemoteException, NotEnoughMoneyException, CurrencyChangeRateErrorException {
+    public boolean doTransaction(String creditcard, String currency, double amount) throws BankAccountNotFoundException, RemoteException, NotEnoughMoneyException, CurrencyChangeRateErrorException {
 
         BankAccount bankAccount = bankAccounts.get(creditcard);
         if (bankAccount == null) {

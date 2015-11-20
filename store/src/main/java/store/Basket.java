@@ -34,7 +34,7 @@ public  class Basket {
         if (exist == null) {
             products.put(product, 0);
         }
-        products.put(product, products.get(product) + amount);
+        products.put(product, amount);
     }
 
     /**
@@ -50,6 +50,14 @@ public  class Basket {
      */
     public void clear() {
         products.clear();
+    }
+
+    /**
+     * Returns the products in the current basket
+     * @return the products in the current basket
+     */
+    public Map<String, Integer> getProducts() {
+        return this.products;
     }
 
 };

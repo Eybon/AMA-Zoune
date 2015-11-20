@@ -1,7 +1,5 @@
 package provider;
 
-import common.IProduct;
-
 /**
  * Product class
  *
@@ -11,7 +9,7 @@ import common.IProduct;
  * @author Antoine Forgerou
  * @author Maxime BERGEON
  */
-public class Product implements IProduct
+public class Product
 {
 
     /**
@@ -49,22 +47,18 @@ public class Product implements IProduct
 	}
 
 
-    @Override
     public String getName() {
         return m_name;
     }
 
-    @Override
     public double getPrice() {
         return m_price;
     }
 
-    @Override
     public String getDescription() {
         return m_description;
     }
 
-    @Override
     public int getQuantity() {
         return m_quantity;
     }

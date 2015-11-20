@@ -1,0 +1,402 @@
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ax2502="http://io.java/xsd" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:ns="http://bank" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ax2501="http://rmi.java/xsd" xmlns:ax2499="http://bank.exceptions/xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://bank">
+    <wsdl:documentation>Bank</wsdl:documentation>
+    <wsdl:types>
+        <xs:schema xmlns:ax2503="http://io.java/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://rmi.java/xsd">
+            <xs:import namespace="http://io.java/xsd"/>
+            <xs:complexType name="RemoteException">
+                <xs:complexContent>
+                    <xs:extension base="ax2502:IOException">
+                        <xs:sequence>
+                            <xs:element minOccurs="0" name="cause" nillable="true" type="xs:anyType"/>
+                            <xs:element minOccurs="0" name="message" nillable="true" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:extension>
+                </xs:complexContent>
+            </xs:complexType>
+        </xs:schema>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://io.java/xsd">
+            <xs:complexType name="IOException">
+                <xs:sequence/>
+            </xs:complexType>
+        </xs:schema>
+        <xs:schema xmlns:ax2504="http://rmi.java/xsd" xmlns:ax2500="http://bank.exceptions/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://bank">
+            <xs:import namespace="http://bank.exceptions/xsd"/>
+            <xs:import namespace="http://rmi.java/xsd"/>
+            <xs:element name="BankBankAccountNotFoundException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="BankAccountNotFoundException" nillable="true" type="ax2500:BankAccountNotFoundException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="BankRemoteException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="RemoteException" nillable="true" type="ax2504:RemoteException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="BankNotEnoughMoneyException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="NotEnoughMoneyException" nillable="true" type="ax2500:NotEnoughMoneyException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="BankCurrencyChangeRateErrorException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="CurrencyChangeRateErrorException" nillable="true" type="ax2500:CurrencyChangeRateErrorException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="doTransaction">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="creditcard" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="amount" type="xs:double"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="doTransactionResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getCurrencyChangeRate">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="from" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="to" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getCurrencyChangeRateResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:double"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getStateBankAccount">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="creditcard" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getStateBankAccountResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:double"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="BankCreditCardNotFoundException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="CreditCardNotFoundException" nillable="true" type="ax2500:CreditCardNotFoundException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="BankWrongCreditCardDetailsException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="WrongCreditCardDetailsException" nillable="true" type="ax2500:WrongCreditCardDetailsException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="checkCreditCard">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="creditcard" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="limitmonth" type="xs:int"/>
+                        <xs:element minOccurs="0" name="limityear" type="xs:int"/>
+                        <xs:element minOccurs="0" name="owner" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="CCV" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="checkCreditCardResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://bank.exceptions/xsd">
+            <xs:complexType name="BankAccountNotFoundException">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="NotEnoughMoneyException">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="CurrencyChangeRateErrorException">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="CreditCardNotFoundException">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="WrongCreditCardDetailsException">
+                <xs:sequence/>
+            </xs:complexType>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="checkCreditCardRequest">
+        <wsdl:part name="parameters" element="ns:checkCreditCard"/>
+    </wsdl:message>
+    <wsdl:message name="checkCreditCardResponse">
+        <wsdl:part name="parameters" element="ns:checkCreditCardResponse"/>
+    </wsdl:message>
+    <wsdl:message name="BankCreditCardNotFoundException">
+        <wsdl:part name="parameters" element="ns:BankCreditCardNotFoundException"/>
+    </wsdl:message>
+    <wsdl:message name="BankWrongCreditCardDetailsException">
+        <wsdl:part name="parameters" element="ns:BankWrongCreditCardDetailsException"/>
+    </wsdl:message>
+    <wsdl:message name="doTransactionRequest">
+        <wsdl:part name="parameters" element="ns:doTransaction"/>
+    </wsdl:message>
+    <wsdl:message name="doTransactionResponse">
+        <wsdl:part name="parameters" element="ns:doTransactionResponse"/>
+    </wsdl:message>
+    <wsdl:message name="BankBankAccountNotFoundException">
+        <wsdl:part name="parameters" element="ns:BankBankAccountNotFoundException"/>
+    </wsdl:message>
+    <wsdl:message name="BankRemoteException">
+        <wsdl:part name="parameters" element="ns:BankRemoteException"/>
+    </wsdl:message>
+    <wsdl:message name="BankNotEnoughMoneyException">
+        <wsdl:part name="parameters" element="ns:BankNotEnoughMoneyException"/>
+    </wsdl:message>
+    <wsdl:message name="BankCurrencyChangeRateErrorException">
+        <wsdl:part name="parameters" element="ns:BankCurrencyChangeRateErrorException"/>
+    </wsdl:message>
+    <wsdl:message name="getStateBankAccountRequest">
+        <wsdl:part name="parameters" element="ns:getStateBankAccount"/>
+    </wsdl:message>
+    <wsdl:message name="getStateBankAccountResponse">
+        <wsdl:part name="parameters" element="ns:getStateBankAccountResponse"/>
+    </wsdl:message>
+    <wsdl:message name="getCurrencyChangeRateRequest">
+        <wsdl:part name="parameters" element="ns:getCurrencyChangeRate"/>
+    </wsdl:message>
+    <wsdl:message name="getCurrencyChangeRateResponse">
+        <wsdl:part name="parameters" element="ns:getCurrencyChangeRateResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="BankPortType">
+        <wsdl:operation name="checkCreditCard">
+            <wsdl:input message="ns:checkCreditCardRequest" wsaw:Action="urn:checkCreditCard"/>
+            <wsdl:output message="ns:checkCreditCardResponse" wsaw:Action="urn:checkCreditCardResponse"/>
+            <wsdl:fault message="ns:BankCreditCardNotFoundException" name="BankCreditCardNotFoundException" wsaw:Action="urn:checkCreditCardBankCreditCardNotFoundException"/>
+            <wsdl:fault message="ns:BankWrongCreditCardDetailsException" name="BankWrongCreditCardDetailsException" wsaw:Action="urn:checkCreditCardBankWrongCreditCardDetailsException"/>
+        </wsdl:operation>
+        <wsdl:operation name="doTransaction">
+            <wsdl:input message="ns:doTransactionRequest" wsaw:Action="urn:doTransaction"/>
+            <wsdl:output message="ns:doTransactionResponse" wsaw:Action="urn:doTransactionResponse"/>
+            <wsdl:fault message="ns:BankBankAccountNotFoundException" name="BankBankAccountNotFoundException" wsaw:Action="urn:doTransactionBankBankAccountNotFoundException"/>
+            <wsdl:fault message="ns:BankRemoteException" name="BankRemoteException" wsaw:Action="urn:doTransactionBankRemoteException"/>
+            <wsdl:fault message="ns:BankNotEnoughMoneyException" name="BankNotEnoughMoneyException" wsaw:Action="urn:doTransactionBankNotEnoughMoneyException"/>
+            <wsdl:fault message="ns:BankCurrencyChangeRateErrorException" name="BankCurrencyChangeRateErrorException" wsaw:Action="urn:doTransactionBankCurrencyChangeRateErrorException"/>
+        </wsdl:operation>
+        <wsdl:operation name="getStateBankAccount">
+            <wsdl:input message="ns:getStateBankAccountRequest" wsaw:Action="urn:getStateBankAccount"/>
+            <wsdl:output message="ns:getStateBankAccountResponse" wsaw:Action="urn:getStateBankAccountResponse"/>
+            <wsdl:fault message="ns:BankBankAccountNotFoundException" name="BankBankAccountNotFoundException" wsaw:Action="urn:getStateBankAccountBankBankAccountNotFoundException"/>
+        </wsdl:operation>
+        <wsdl:operation name="getCurrencyChangeRate">
+            <wsdl:input message="ns:getCurrencyChangeRateRequest" wsaw:Action="urn:getCurrencyChangeRate"/>
+            <wsdl:output message="ns:getCurrencyChangeRateResponse" wsaw:Action="urn:getCurrencyChangeRateResponse"/>
+            <wsdl:fault message="ns:BankRemoteException" name="BankRemoteException" wsaw:Action="urn:getCurrencyChangeRateBankRemoteException"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="BankSoap11Binding" type="ns:BankPortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="checkCreditCard">
+            <soap:operation soapAction="urn:checkCreditCard" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="BankWrongCreditCardDetailsException">
+                <soap:fault use="literal" name="BankWrongCreditCardDetailsException"/>
+            </wsdl:fault>
+            <wsdl:fault name="BankCreditCardNotFoundException">
+                <soap:fault use="literal" name="BankCreditCardNotFoundException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="doTransaction">
+            <soap:operation soapAction="urn:doTransaction" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="BankNotEnoughMoneyException">
+                <soap:fault use="literal" name="BankNotEnoughMoneyException"/>
+            </wsdl:fault>
+            <wsdl:fault name="BankBankAccountNotFoundException">
+                <soap:fault use="literal" name="BankBankAccountNotFoundException"/>
+            </wsdl:fault>
+            <wsdl:fault name="BankCurrencyChangeRateErrorException">
+                <soap:fault use="literal" name="BankCurrencyChangeRateErrorException"/>
+            </wsdl:fault>
+            <wsdl:fault name="BankRemoteException">
+                <soap:fault use="literal" name="BankRemoteException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="getStateBankAccount">
+            <soap:operation soapAction="urn:getStateBankAccount" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="BankBankAccountNotFoundException">
+                <soap:fault use="literal" name="BankBankAccountNotFoundException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="getCurrencyChangeRate">
+            <soap:operation soapAction="urn:getCurrencyChangeRate" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="BankRemoteException">
+                <soap:fault use="literal" name="BankRemoteException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="BankSoap12Binding" type="ns:BankPortType">
+        <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="checkCreditCard">
+            <soap12:operation soapAction="urn:checkCreditCard" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="BankWrongCreditCardDetailsException">
+                <soap12:fault use="literal" name="BankWrongCreditCardDetailsException"/>
+            </wsdl:fault>
+            <wsdl:fault name="BankCreditCardNotFoundException">
+                <soap12:fault use="literal" name="BankCreditCardNotFoundException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="doTransaction">
+            <soap12:operation soapAction="urn:doTransaction" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="BankNotEnoughMoneyException">
+                <soap12:fault use="literal" name="BankNotEnoughMoneyException"/>
+            </wsdl:fault>
+            <wsdl:fault name="BankBankAccountNotFoundException">
+                <soap12:fault use="literal" name="BankBankAccountNotFoundException"/>
+            </wsdl:fault>
+            <wsdl:fault name="BankCurrencyChangeRateErrorException">
+                <soap12:fault use="literal" name="BankCurrencyChangeRateErrorException"/>
+            </wsdl:fault>
+            <wsdl:fault name="BankRemoteException">
+                <soap12:fault use="literal" name="BankRemoteException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="getStateBankAccount">
+            <soap12:operation soapAction="urn:getStateBankAccount" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="BankBankAccountNotFoundException">
+                <soap12:fault use="literal" name="BankBankAccountNotFoundException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="getCurrencyChangeRate">
+            <soap12:operation soapAction="urn:getCurrencyChangeRate" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="BankRemoteException">
+                <soap12:fault use="literal" name="BankRemoteException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="BankHttpBinding" type="ns:BankPortType">
+        <http:binding verb="POST"/>
+        <wsdl:operation name="checkCreditCard">
+            <http:operation location="checkCreditCard"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="doTransaction">
+            <http:operation location="doTransaction"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getStateBankAccount">
+            <http:operation location="getStateBankAccount"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getCurrencyChangeRate">
+            <http:operation location="getCurrencyChangeRate"/>
+            <wsdl:input>
+                <mime:content type="text/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="text/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="Bank">
+        <wsdl:port name="BankHttpSoap11Endpoint" binding="ns:BankSoap11Binding">
+            <soap:address location="http://192.168.0.12:9763/services/Bank.BankHttpSoap11Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="BankHttpsSoap11Endpoint" binding="ns:BankSoap11Binding">
+            <soap:address location="https://192.168.0.12:9443/services/Bank.BankHttpsSoap11Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="BankHttpsSoap12Endpoint" binding="ns:BankSoap12Binding">
+            <soap12:address location="https://192.168.0.12:9443/services/Bank.BankHttpsSoap12Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="BankHttpSoap12Endpoint" binding="ns:BankSoap12Binding">
+            <soap12:address location="http://192.168.0.12:9763/services/Bank.BankHttpSoap12Endpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="BankHttpEndpoint" binding="ns:BankHttpBinding">
+            <http:address location="http://192.168.0.12:9763/services/Bank.BankHttpEndpoint/"/>
+        </wsdl:port>
+        <wsdl:port name="BankHttpsEndpoint" binding="ns:BankHttpBinding">
+            <http:address location="https://192.168.0.12:9443/services/Bank.BankHttpsEndpoint/"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

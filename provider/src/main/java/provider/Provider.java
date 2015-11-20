@@ -1,6 +1,5 @@
 package provider;
 
-import common.IProduct;
 import exceptions.provider.ProductNotFoundException;
 import exceptions.provider.SoldOutException;
 import java.util.ArrayList;
@@ -20,12 +19,12 @@ public class Provider
     /**
      * List of products
      */
-	private List<IProduct> m_refProducts;
+	private List<Product> m_refProducts;
 
     public static void main(String[] args) {}
 
     public Provider () {
-        m_refProducts = Collections.synchronizedList(new ArrayList<IProduct>());
+        m_refProducts = Collections.synchronizedList(new ArrayList<Product>());
         m_refProducts.add(new Product("Bikini_1", "Hot girl....", 100.00, 10));
         m_refProducts.add(new Product("Hot_grill_1", "so hot girl....", 300.00, 10));
         m_refProducts.add(new Product("Hot_grill_2", "so hot girl....", 350.00, 10));
@@ -38,7 +37,7 @@ public class Provider
      * Return the complete list of products
      * @return the complete list of products
      */
-	public List<IProduct> getListProduct(){
+	public List<Product> getListProduct(){
         return m_refProducts;
 	}
 
@@ -48,8 +47,8 @@ public class Provider
      * @return the product corresponding to the identifier
      * @throws ProductNotFoundException if the product does not exist
      */
-	public IProduct getProduct(String identifier) throws ProductNotFoundException {
-        for (IProduct product : m_refProducts) {
+	public Product getProduct(String identifier) throws ProductNotFoundException {
+        for (Product product : m_refProducts) {
             if (identifier.equals(product.getName())) {
                 return product;
             }
@@ -64,9 +63,9 @@ public class Provider
      * @return true if the deduction has been made successfuly, false otherwise
      */
 	public boolean orderProduct(String identifier, int amount) throws ProductNotFoundException, SoldOutException {
-        IProduct product = getProduct(identifier);
+        Product product = getProduct(identifier);
         if (product.getQuantity() >= amount) {
-            ((Product)product).removeQuantity(amount);
+            product.removeQuantity(amount);
             return true;
         }
         throw new SoldOutException();

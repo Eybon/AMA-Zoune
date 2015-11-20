@@ -24,6 +24,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="bank" />
+        <module name="client" />
         <module name="common" />
         <module name="currency" />
         <module name="exceptions" />
@@ -34,6 +35,7 @@
     <bytecodeTargetLevel>
       <module name="AMA-Zoune" target="1.7" />
       <module name="bank" target="1.7" />
+      <module name="client" target="1.7" />
       <module name="common" target="1.7" />
       <module name="currency" target="1.7" />
       <module name="exceptions" target="1.7" />

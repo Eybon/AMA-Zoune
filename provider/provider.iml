@@ -12,7 +12,6 @@
     <orderEntry type="library" name="Axis2" level="project" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="common" />
     <orderEntry type="library" name="Maven: org.apache.axis2:axis2:1.6.1-wso2v14" level="project" />
     <orderEntry type="library" name="Maven: org.apache.axis2:axis2-adb:1.6.1-wso2v14" level="project" />
     <orderEntry type="library" name="Maven: org.apache.axis2:axis2-kernel:1.6.1-wso2v14" level="project" />
@@ -49,6 +48,5 @@
     <orderEntry type="library" name="Maven: org.apache.axis2:axis2-transport-local:1.6.1-wso2v14" level="project" />
     <orderEntry type="library" name="Maven: junit:junit:3.8.2" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.4" level="project" />
-    <orderEntry type="module" module-name="exceptions" />
   </component>
 </module>

@@ -52,4 +52,8 @@ public class CreditCard {
 
     }
 
+    public boolean doesVerify(String owner, int limitmonth, int limityear, String CCV) {
+        return (owner.equals(this.owner) && CCV.equals(this.ccv) && (limitmonth == this.month) && (limityear == this.year));
+    }
+
 }

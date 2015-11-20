@@ -43,7 +43,7 @@ public abstract class ProviderCallbackHandler {
      * override this method for handling normal response from orderProduct operation
      */
     public void receiveResultorderProduct(
-        ProviderStub.OrderProductResponse result) {
+        store.generated.provider.ProviderStub.OrderProductResponse result) {
     }
 
     /**
@@ -58,7 +58,7 @@ public abstract class ProviderCallbackHandler {
      * override this method for handling normal response from getProduct operation
      */
     public void receiveResultgetProduct(
-        ProviderStub.GetProductResponse result) {
+        store.generated.provider.ProviderStub.GetProductResponse result) {
     }
 
     /**
@@ -73,7 +73,7 @@ public abstract class ProviderCallbackHandler {
      * override this method for handling normal response from getListProduct operation
      */
     public void receiveResultgetListProduct(
-        ProviderStub.GetListProductResponse result) {
+        store.generated.provider.ProviderStub.GetListProductResponse result) {
     }
 
     /**

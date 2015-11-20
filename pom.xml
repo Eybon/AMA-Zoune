@@ -16,6 +16,7 @@
         <module>bank</module>
         <module>currency</module>
         <module>exceptions</module>
+        <module>client</module>
     </modules>
 
     <licenses>
