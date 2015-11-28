@@ -11,11 +11,150 @@
 
     <artifactId>store</artifactId>
 
+    <repositories>
+        <repository>
+            <id>wso2-Nexus</id>
+            <name>WSO2 Repository</name>
+            <url>http://maven.wso2.org/nexus/content/repositories/releases/</url>
+        </repository>
+    </repositories>
+    <properties>
+        <axis2_version>1.6.1-wso2v14</axis2_version>
+    </properties>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>wso2-Nexus</id>
+            <name>WSO2 Repository</name>
+            <url>http://maven.wso2.org/nexus/content/repositories/releases/</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>1.7</version>
+                <executions>
+                    <execution>
+                        <id>add-source</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>add-source</goal>
+                        </goals>
+                        <configuration>
+                            <sources>
+                                <source>${basedir}/generated-sources/src</source>
+                                <source>${basedir}/generated-sources/test</source>
+                            </sources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                    <compilerArgument></compilerArgument>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.axis2</groupId>
+                <artifactId>axis2-wsdl2code-maven-plugin</artifactId>
+                <version>${axis2_version}</version>
+                <executions>
+                    <execution>
+                        <id>Provider</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>wsdl2code</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${basedir}/src/main/java</outputDirectory>
+                            <databindingName>adb</databindingName><portName>ProviderHttpsSoap12Endpoint</portName><language>java</language><wsdlFile>http://localhost:9763/services/Provider?wsdl</wsdlFile>
+                            <packageName>store.generated.provider</packageName>
+                            <targetSourceFolderLocation></targetSourceFolderLocation>
+                            <flattenFiles>true</flattenFiles>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>Bank</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>wsdl2code</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${basedir}/src/main/java</outputDirectory>
+                            <databindingName>adb</databindingName><portName>BankHttpsSoap12Endpoint</portName><language>java</language><wsdlFile>http://localhost:9763/services/Bank?wsdl</wsdlFile>
+                            <packageName>store.generated.bank</packageName>
+                            <targetSourceFolderLocation></targetSourceFolderLocation>
+                            <flattenFiles>true</flattenFiles>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencies>
         <dependency>
-            <artifactId>common</artifactId>
-            <groupId>AMA-Zoune</groupId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>org.apache.axis2</groupId>
+            <artifactId>axis2</artifactId>
+            <version>${axis2_version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.axis2</groupId>
+            <artifactId>axis2-adb</artifactId>
+            <version>${axis2_version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.axis2</groupId>
+            <artifactId>axis2-transport-http</artifactId>
+            <version>${axis2_version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.axis2</groupId>
+            <artifactId>axis2-transport-local</artifactId>
+            <version>${axis2_version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.2</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.9.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20150729</version>
+        </dependency>
+        <dependency>
+            <groupId>com.geteventstore</groupId>
+            <artifactId>eventstore-client_2.10</artifactId>
+            <version>2.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-actor_2.11</artifactId>
+            <version>2.4.0</version>
         </dependency>
     </dependencies>
 

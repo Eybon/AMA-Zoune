@@ -7,7 +7,7 @@
 package store.generated.bank;
 
 public class BankCurrencyChangeRateErrorExceptionException extends java.lang.Exception {
-    private static final long serialVersionUID = 1447954219792L;
+    private static final long serialVersionUID = 1448480299941L;
     private store.generated.bank.BankStub.BankCurrencyChangeRateErrorException faultMessage;
 
     public BankCurrencyChangeRateErrorExceptionException() {

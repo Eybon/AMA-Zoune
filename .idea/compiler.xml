@@ -25,9 +25,6 @@
         <processorPath useClasspath="true" />
         <module name="bank" />
         <module name="client" />
-        <module name="common" />
-        <module name="currency" />
-        <module name="exceptions" />
         <module name="provider" />
         <module name="store" />
       </profile>

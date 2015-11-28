@@ -117,11 +117,11 @@ public class CurrencyConvertorStub extends org.apache.axis2.client.Stub {
     /**
      * Auto generated method signature
      * &lt;br&gt;&lt;b&gt;Get conversion rate from one currency to another currency &lt;b&gt;&lt;br&gt;&lt;p&gt;&lt;b&gt;&lt;font color='#000080' size='1' face='Verdana'&gt;&lt;u&gt;Differenct currency Code and Names around the world&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;font face='Verdana' size='1'&gt;AFA-Afghanistan Afghani&lt;br&gt;ALL-Albanian Lek&lt;br&gt;DZD-Algerian Dinar&lt;br&gt;ARS-Argentine Peso&lt;br&gt;AWG-Aruba Florin&lt;br&gt;AUD-Australian Dollar&lt;br&gt;BSD-Bahamian Dollar&lt;br&gt;BHD-Bahraini Dinar&lt;br&gt;BDT-Bangladesh Taka&lt;br&gt;BBD-Barbados Dollar&lt;br&gt;BZD-Belize Dollar&lt;br&gt;BMD-Bermuda Dollar&lt;br&gt;BTN-Bhutan Ngultrum&lt;br&gt;BOB-Bolivian Boliviano&lt;br&gt;BWP-Botswana Pula&lt;br&gt;BRL-Brazilian Real&lt;br&gt;GBP-British Pound&lt;br&gt;BND-Brunei Dollar&lt;br&gt;BIF-Burundi Franc&lt;br&gt;XOF-CFA Franc (BCEAO)&lt;br&gt;XAF-CFA Franc (BEAC)&lt;br&gt;KHR-Cambodia Riel&lt;br&gt;CAD-Canadian Dollar&lt;br&gt;CVE-Cape Verde Escudo&lt;br&gt;KYD-Cayman Islands Dollar&lt;br&gt;CLP-Chilean Peso&lt;br&gt;CNY-Chinese Yuan&lt;br&gt;COP-Colombian Peso&lt;br&gt;KMF-Comoros Franc&lt;br&gt;CRC-Costa Rica Colon&lt;br&gt;HRK-Croatian Kuna&lt;br&gt;CUP-Cuban Peso&lt;br&gt;CYP-Cyprus Pound&lt;br&gt;CZK-Czech Koruna&lt;br&gt;DKK-Danish Krone&lt;br&gt;DJF-Dijibouti Franc&lt;br&gt;DOP-Dominican Peso&lt;br&gt;XCD-East Caribbean Dollar&lt;br&gt;EGP-Egyptian Pound&lt;br&gt;SVC-El Salvador Colon&lt;br&gt;EEK-Estonian Kroon&lt;br&gt;ETB-Ethiopian Birr&lt;br&gt;EUR-Euro&lt;br&gt;FKP-Falkland Islands Pound&lt;br&gt;GMD-Gambian Dalasi&lt;br&gt;GHC-Ghanian Cedi&lt;br&gt;GIP-Gibraltar Pound&lt;br&gt;XAU-Gold Ounces&lt;br&gt;GTQ-Guatemala Quetzal&lt;br&gt;GNF-Guinea Franc&lt;br&gt;GYD-Guyana Dollar&lt;br&gt;HTG-Haiti Gourde&lt;br&gt;HNL-Honduras Lempira&lt;br&gt;HKD-Hong Kong Dollar&lt;br&gt;HUF-Hungarian Forint&lt;br&gt;ISK-Iceland Krona&lt;br&gt;INR-Indian Rupee&lt;br&gt;IDR-Indonesian Rupiah&lt;br&gt;IQD-Iraqi Dinar&lt;br&gt;ILS-Israeli Shekel&lt;br&gt;JMD-Jamaican Dollar&lt;br&gt;JPY-Japanese Yen&lt;br&gt;JOD-Jordanian Dinar&lt;br&gt;KZT-Kazakhstan Tenge&lt;br&gt;KES-Kenyan Shilling&lt;br&gt;KRW-Korean Won&lt;br&gt;KWD-Kuwaiti Dinar&lt;br&gt;LAK-Lao Kip&lt;br&gt;LVL-Latvian Lat&lt;br&gt;LBP-Lebanese Pound&lt;br&gt;LSL-Lesotho Loti&lt;br&gt;LRD-Liberian Dollar&lt;br&gt;LYD-Libyan Dinar&lt;br&gt;LTL-Lithuanian Lita&lt;br&gt;MOP-Macau Pataca&lt;br&gt;MKD-Macedonian Denar&lt;br&gt;MGF-Malagasy Franc&lt;br&gt;MWK-Malawi Kwacha&lt;br&gt;MYR-Malaysian Ringgit&lt;br&gt;MVR-Maldives Rufiyaa&lt;br&gt;MTL-Maltese Lira&lt;br&gt;MRO-Mauritania Ougulya&lt;br&gt;MUR-Mauritius Rupee&lt;br&gt;MXN-Mexican Peso&lt;br&gt;MDL-Moldovan Leu&lt;br&gt;MNT-Mongolian Tugrik&lt;br&gt;MAD-Moroccan Dirham&lt;br&gt;MZM-Mozambique Metical&lt;br&gt;MMK-Myanmar Kyat&lt;br&gt;NAD-Namibian Dollar&lt;br&gt;NPR-Nepalese Rupee&lt;br&gt;ANG-Neth Antilles Guilder&lt;br&gt;NZD-New Zealand Dollar&lt;br&gt;NIO-Nicaragua Cordoba&lt;br&gt;NGN-Nigerian Naira&lt;br&gt;KPW-North Korean Won&lt;br&gt;NOK-Norwegian Krone&lt;br&gt;OMR-Omani Rial&lt;br&gt;XPF-Pacific Franc&lt;br&gt;PKR-Pakistani Rupee&lt;br&gt;XPD-Palladium Ounces&lt;br&gt;PAB-Panama Balboa&lt;br&gt;PGK-Papua New Guinea Kina&lt;br&gt;PYG-Paraguayan Guarani&lt;br&gt;PEN-Peruvian Nuevo Sol&lt;br&gt;PHP-Philippine Peso&lt;br&gt;XPT-Platinum Ounces&lt;br&gt;PLN-Polish Zloty&lt;br&gt;QAR-Qatar Rial&lt;br&gt;ROL-Romanian Leu&lt;br&gt;RUB-Russian Rouble&lt;br&gt;WST-Samoa Tala&lt;br&gt;STD-Sao Tome Dobra&lt;br&gt;SAR-Saudi Arabian Riyal&lt;br&gt;SCR-Seychelles Rupee&lt;br&gt;SLL-Sierra Leone Leone&lt;br&gt;XAG-Silver Ounces&lt;br&gt;SGD-Singapore Dollar&lt;br&gt;SKK-Slovak Koruna&lt;br&gt;SIT-Slovenian Tolar&lt;br&gt;SBD-Solomon Islands Dollar&lt;br&gt;SOS-Somali Shilling&lt;br&gt;ZAR-South African Rand&lt;br&gt;LKR-Sri Lanka Rupee&lt;br&gt;SHP-St Helena Pound&lt;br&gt;SDD-Sudanese Dinar&lt;br&gt;SRG-Surinam Guilder&lt;br&gt;SZL-Swaziland Lilageni&lt;br&gt;SEK-Swedish Krona&lt;br&gt;TRY-Turkey Lira&lt;br&gt;CHF-Swiss Franc&lt;br&gt;SYP-Syrian Pound&lt;br&gt;TWD-Taiwan Dollar&lt;br&gt;TZS-Tanzanian Shilling&lt;br&gt;THB-Thai Baht&lt;br&gt;TOP-Tonga Pa'anga&lt;br&gt;TTD-Trinidad&amp;amp;amp;Tobago Dollar&lt;br&gt;TND-Tunisian Dinar&lt;br&gt;TRL-Turkish Lira&lt;br&gt;USD-U.S. Dollar&lt;br&gt;AED-UAE Dirham&lt;br&gt;UGX-Ugandan Shilling&lt;br&gt;UAH-Ukraine Hryvnia&lt;br&gt;UYU-Uruguayan New Peso&lt;br&gt;VUV-Vanuatu Vatu&lt;br&gt;VEB-Venezuelan Bolivar&lt;br&gt;VND-Vietnam Dong&lt;br&gt;YER-Yemen Riyal&lt;br&gt;YUM-Yugoslav Dinar&lt;br&gt;ZMK-Zambian Kwacha&lt;br&gt;ZWD-Zimbabwe Dollar&lt;/font&gt;&lt;/p&gt;&lt;/blockquote&gt;
-     * @see bank.generated.CurrencyConvertor#conversionRate
+     * @see store.generated.bank.CurrencyConvertor#conversionRate
      * @param conversionRate0
      */
-    public bank.generated.CurrencyConvertorStub.ConversionRateResponse conversionRate(
-        bank.generated.CurrencyConvertorStub.ConversionRate conversionRate0)
+    public CurrencyConvertorStub.ConversionRateResponse conversionRate(
+        CurrencyConvertorStub.ConversionRate conversionRate0)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = null;
 
@@ -166,10 +166,10 @@ public class CurrencyConvertorStub extends org.apache.axis2.client.Stub {
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    bank.generated.CurrencyConvertorStub.ConversionRateResponse.class,
+                    CurrencyConvertorStub.ConversionRateResponse.class,
                     getEnvelopeNamespaces(_returnEnv));
 
-            return (bank.generated.CurrencyConvertorStub.ConversionRateResponse) object;
+            return (CurrencyConvertorStub.ConversionRateResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -232,12 +232,12 @@ public class CurrencyConvertorStub extends org.apache.axis2.client.Stub {
     /**
      * Auto generated method signature for Asynchronous Invocations
      * &lt;br&gt;&lt;b&gt;Get conversion rate from one currency to another currency &lt;b&gt;&lt;br&gt;&lt;p&gt;&lt;b&gt;&lt;font color='#000080' size='1' face='Verdana'&gt;&lt;u&gt;Differenct currency Code and Names around the world&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;font face='Verdana' size='1'&gt;AFA-Afghanistan Afghani&lt;br&gt;ALL-Albanian Lek&lt;br&gt;DZD-Algerian Dinar&lt;br&gt;ARS-Argentine Peso&lt;br&gt;AWG-Aruba Florin&lt;br&gt;AUD-Australian Dollar&lt;br&gt;BSD-Bahamian Dollar&lt;br&gt;BHD-Bahraini Dinar&lt;br&gt;BDT-Bangladesh Taka&lt;br&gt;BBD-Barbados Dollar&lt;br&gt;BZD-Belize Dollar&lt;br&gt;BMD-Bermuda Dollar&lt;br&gt;BTN-Bhutan Ngultrum&lt;br&gt;BOB-Bolivian Boliviano&lt;br&gt;BWP-Botswana Pula&lt;br&gt;BRL-Brazilian Real&lt;br&gt;GBP-British Pound&lt;br&gt;BND-Brunei Dollar&lt;br&gt;BIF-Burundi Franc&lt;br&gt;XOF-CFA Franc (BCEAO)&lt;br&gt;XAF-CFA Franc (BEAC)&lt;br&gt;KHR-Cambodia Riel&lt;br&gt;CAD-Canadian Dollar&lt;br&gt;CVE-Cape Verde Escudo&lt;br&gt;KYD-Cayman Islands Dollar&lt;br&gt;CLP-Chilean Peso&lt;br&gt;CNY-Chinese Yuan&lt;br&gt;COP-Colombian Peso&lt;br&gt;KMF-Comoros Franc&lt;br&gt;CRC-Costa Rica Colon&lt;br&gt;HRK-Croatian Kuna&lt;br&gt;CUP-Cuban Peso&lt;br&gt;CYP-Cyprus Pound&lt;br&gt;CZK-Czech Koruna&lt;br&gt;DKK-Danish Krone&lt;br&gt;DJF-Dijibouti Franc&lt;br&gt;DOP-Dominican Peso&lt;br&gt;XCD-East Caribbean Dollar&lt;br&gt;EGP-Egyptian Pound&lt;br&gt;SVC-El Salvador Colon&lt;br&gt;EEK-Estonian Kroon&lt;br&gt;ETB-Ethiopian Birr&lt;br&gt;EUR-Euro&lt;br&gt;FKP-Falkland Islands Pound&lt;br&gt;GMD-Gambian Dalasi&lt;br&gt;GHC-Ghanian Cedi&lt;br&gt;GIP-Gibraltar Pound&lt;br&gt;XAU-Gold Ounces&lt;br&gt;GTQ-Guatemala Quetzal&lt;br&gt;GNF-Guinea Franc&lt;br&gt;GYD-Guyana Dollar&lt;br&gt;HTG-Haiti Gourde&lt;br&gt;HNL-Honduras Lempira&lt;br&gt;HKD-Hong Kong Dollar&lt;br&gt;HUF-Hungarian Forint&lt;br&gt;ISK-Iceland Krona&lt;br&gt;INR-Indian Rupee&lt;br&gt;IDR-Indonesian Rupiah&lt;br&gt;IQD-Iraqi Dinar&lt;br&gt;ILS-Israeli Shekel&lt;br&gt;JMD-Jamaican Dollar&lt;br&gt;JPY-Japanese Yen&lt;br&gt;JOD-Jordanian Dinar&lt;br&gt;KZT-Kazakhstan Tenge&lt;br&gt;KES-Kenyan Shilling&lt;br&gt;KRW-Korean Won&lt;br&gt;KWD-Kuwaiti Dinar&lt;br&gt;LAK-Lao Kip&lt;br&gt;LVL-Latvian Lat&lt;br&gt;LBP-Lebanese Pound&lt;br&gt;LSL-Lesotho Loti&lt;br&gt;LRD-Liberian Dollar&lt;br&gt;LYD-Libyan Dinar&lt;br&gt;LTL-Lithuanian Lita&lt;br&gt;MOP-Macau Pataca&lt;br&gt;MKD-Macedonian Denar&lt;br&gt;MGF-Malagasy Franc&lt;br&gt;MWK-Malawi Kwacha&lt;br&gt;MYR-Malaysian Ringgit&lt;br&gt;MVR-Maldives Rufiyaa&lt;br&gt;MTL-Maltese Lira&lt;br&gt;MRO-Mauritania Ougulya&lt;br&gt;MUR-Mauritius Rupee&lt;br&gt;MXN-Mexican Peso&lt;br&gt;MDL-Moldovan Leu&lt;br&gt;MNT-Mongolian Tugrik&lt;br&gt;MAD-Moroccan Dirham&lt;br&gt;MZM-Mozambique Metical&lt;br&gt;MMK-Myanmar Kyat&lt;br&gt;NAD-Namibian Dollar&lt;br&gt;NPR-Nepalese Rupee&lt;br&gt;ANG-Neth Antilles Guilder&lt;br&gt;NZD-New Zealand Dollar&lt;br&gt;NIO-Nicaragua Cordoba&lt;br&gt;NGN-Nigerian Naira&lt;br&gt;KPW-North Korean Won&lt;br&gt;NOK-Norwegian Krone&lt;br&gt;OMR-Omani Rial&lt;br&gt;XPF-Pacific Franc&lt;br&gt;PKR-Pakistani Rupee&lt;br&gt;XPD-Palladium Ounces&lt;br&gt;PAB-Panama Balboa&lt;br&gt;PGK-Papua New Guinea Kina&lt;br&gt;PYG-Paraguayan Guarani&lt;br&gt;PEN-Peruvian Nuevo Sol&lt;br&gt;PHP-Philippine Peso&lt;br&gt;XPT-Platinum Ounces&lt;br&gt;PLN-Polish Zloty&lt;br&gt;QAR-Qatar Rial&lt;br&gt;ROL-Romanian Leu&lt;br&gt;RUB-Russian Rouble&lt;br&gt;WST-Samoa Tala&lt;br&gt;STD-Sao Tome Dobra&lt;br&gt;SAR-Saudi Arabian Riyal&lt;br&gt;SCR-Seychelles Rupee&lt;br&gt;SLL-Sierra Leone Leone&lt;br&gt;XAG-Silver Ounces&lt;br&gt;SGD-Singapore Dollar&lt;br&gt;SKK-Slovak Koruna&lt;br&gt;SIT-Slovenian Tolar&lt;br&gt;SBD-Solomon Islands Dollar&lt;br&gt;SOS-Somali Shilling&lt;br&gt;ZAR-South African Rand&lt;br&gt;LKR-Sri Lanka Rupee&lt;br&gt;SHP-St Helena Pound&lt;br&gt;SDD-Sudanese Dinar&lt;br&gt;SRG-Surinam Guilder&lt;br&gt;SZL-Swaziland Lilageni&lt;br&gt;SEK-Swedish Krona&lt;br&gt;TRY-Turkey Lira&lt;br&gt;CHF-Swiss Franc&lt;br&gt;SYP-Syrian Pound&lt;br&gt;TWD-Taiwan Dollar&lt;br&gt;TZS-Tanzanian Shilling&lt;br&gt;THB-Thai Baht&lt;br&gt;TOP-Tonga Pa'anga&lt;br&gt;TTD-Trinidad&amp;amp;amp;Tobago Dollar&lt;br&gt;TND-Tunisian Dinar&lt;br&gt;TRL-Turkish Lira&lt;br&gt;USD-U.S. Dollar&lt;br&gt;AED-UAE Dirham&lt;br&gt;UGX-Ugandan Shilling&lt;br&gt;UAH-Ukraine Hryvnia&lt;br&gt;UYU-Uruguayan New Peso&lt;br&gt;VUV-Vanuatu Vatu&lt;br&gt;VEB-Venezuelan Bolivar&lt;br&gt;VND-Vietnam Dong&lt;br&gt;YER-Yemen Riyal&lt;br&gt;YUM-Yugoslav Dinar&lt;br&gt;ZMK-Zambian Kwacha&lt;br&gt;ZWD-Zimbabwe Dollar&lt;/font&gt;&lt;/p&gt;&lt;/blockquote&gt;
-     * @see bank.generated.CurrencyConvertor#startconversionRate
+     * @see store.generated.bank.CurrencyConvertor#startconversionRate
      * @param conversionRate0
      */
     public void startconversionRate(
-        bank.generated.CurrencyConvertorStub.ConversionRate conversionRate0,
-        final bank.generated.CurrencyConvertorCallbackHandler callback)
+        CurrencyConvertorStub.ConversionRate conversionRate0,
+        final CurrencyConvertorCallbackHandler callback)
         throws java.rmi.RemoteException {
         org.apache.axis2.client.OperationClient _operationClient = _serviceClient.createClient(_operations[0].getName());
         _operationClient.getOptions()
@@ -278,9 +278,9 @@ public class CurrencyConvertorStub extends org.apache.axis2.client.Stub {
 
                         java.lang.Object object = fromOM(resultEnv.getBody()
                                                                   .getFirstElement(),
-                                bank.generated.CurrencyConvertorStub.ConversionRateResponse.class,
+                                CurrencyConvertorStub.ConversionRateResponse.class,
                                 getEnvelopeNamespaces(resultEnv));
-                        callback.receiveResultconversionRate((bank.generated.CurrencyConvertorStub.ConversionRateResponse) object);
+                        callback.receiveResultconversionRate((CurrencyConvertorStub.ConversionRateResponse) object);
                     } catch (org.apache.axis2.AxisFault e) {
                         callback.receiveErrorconversionRate(e);
                     }
@@ -411,10 +411,10 @@ public class CurrencyConvertorStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        bank.generated.CurrencyConvertorStub.ConversionRate param,
+        CurrencyConvertorStub.ConversionRate param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(bank.generated.CurrencyConvertorStub.ConversionRate.MY_QNAME,
+            return param.getOMElement(CurrencyConvertorStub.ConversionRate.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -422,10 +422,10 @@ public class CurrencyConvertorStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        bank.generated.CurrencyConvertorStub.ConversionRateResponse param,
+        CurrencyConvertorStub.ConversionRateResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(bank.generated.CurrencyConvertorStub.ConversionRateResponse.MY_QNAME,
+            return param.getOMElement(CurrencyConvertorStub.ConversionRateResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -434,14 +434,14 @@ public class CurrencyConvertorStub extends org.apache.axis2.client.Stub {
 
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        bank.generated.CurrencyConvertorStub.ConversionRate param,
+        CurrencyConvertorStub.ConversionRate param,
         boolean optimizeContent, javax.xml.namespace.QName methodQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    bank.generated.CurrencyConvertorStub.ConversionRate.MY_QNAME,
+                    CurrencyConvertorStub.ConversionRate.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -464,14 +464,14 @@ public class CurrencyConvertorStub extends org.apache.axis2.client.Stub {
         java.lang.Class type, java.util.Map extraNamespaces)
         throws org.apache.axis2.AxisFault {
         try {
-            if (bank.generated.CurrencyConvertorStub.ConversionRate.class.equals(
+            if (CurrencyConvertorStub.ConversionRate.class.equals(
                         type)) {
-                return bank.generated.CurrencyConvertorStub.ConversionRate.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return CurrencyConvertorStub.ConversionRate.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (bank.generated.CurrencyConvertorStub.ConversionRateResponse.class.equals(
+            if (CurrencyConvertorStub.ConversionRateResponse.class.equals(
                         type)) {
-                return bank.generated.CurrencyConvertorStub.ConversionRateResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return CurrencyConvertorStub.ConversionRateResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
         } catch (java.lang.Exception e) {
             throw org.apache.axis2.AxisFault.makeFault(e);

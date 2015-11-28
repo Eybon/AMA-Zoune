@@ -1,7 +1,7 @@
-<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:ns="http://provider" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ax2483="http://provider/xsd" xmlns:ax2485="http://provider.exceptions/xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://provider">
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:ns="http://provider" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:ax2457="http://provider/xsd" xmlns:ax2455="http://exceptions.provider/xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://provider">
     <wsdl:documentation>Provider</wsdl:documentation>
     <wsdl:types>
-        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://provider.exceptions/xsd">
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://exceptions.provider/xsd">
             <xs:complexType name="ProductNotFoundException">
                 <xs:sequence/>
             </xs:complexType>
@@ -19,25 +19,13 @@
                 </xs:sequence>
             </xs:complexType>
         </xs:schema>
-        <xs:schema xmlns:ax2484="http://provider/xsd" xmlns:ax2486="http://provider.exceptions/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://provider">
+        <xs:schema xmlns:ax2458="http://provider/xsd" xmlns:ax2456="http://exceptions.provider/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://provider">
+            <xs:import namespace="http://exceptions.provider/xsd"/>
             <xs:import namespace="http://provider/xsd"/>
-            <xs:import namespace="http://provider.exceptions/xsd"/>
-            <xs:element name="getListProduct">
-                <xs:complexType>
-                    <xs:sequence/>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="getListProductResponse">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ax2484:Product"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
             <xs:element name="ProviderProductNotFoundException">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element minOccurs="0" name="ProductNotFoundException" nillable="true" type="ax2486:ProductNotFoundException"/>
+                        <xs:element minOccurs="0" name="ProductNotFoundException" nillable="true" type="ax2456:ProductNotFoundException"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
@@ -51,14 +39,26 @@
             <xs:element name="getProductResponse">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element minOccurs="0" name="return" nillable="true" type="ax2484:Product"/>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="ax2458:Product"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getListProduct">
+                <xs:complexType>
+                    <xs:sequence/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getListProductResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element maxOccurs="unbounded" minOccurs="0" name="return" nillable="true" type="ax2458:Product"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
             <xs:element name="ProviderSoldOutException">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element minOccurs="0" name="SoldOutException" nillable="true" type="ax2486:SoldOutException"/>
+                        <xs:element minOccurs="0" name="SoldOutException" nillable="true" type="ax2456:SoldOutException"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>

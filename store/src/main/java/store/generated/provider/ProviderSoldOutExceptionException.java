@@ -7,8 +7,8 @@
 package store.generated.provider;
 
 public class ProviderSoldOutExceptionException extends java.lang.Exception {
-    private static final long serialVersionUID = 1447950611799L;
-    private store.generated.provider.ProviderStub.ProviderSoldOutException faultMessage;
+    private static final long serialVersionUID = 1448480276022L;
+    private ProviderStub.ProviderSoldOutException faultMessage;
 
     public ProviderSoldOutExceptionException() {
         super("ProviderSoldOutExceptionException");
@@ -28,11 +28,11 @@ public class ProviderSoldOutExceptionException extends java.lang.Exception {
     }
 
     public void setFaultMessage(
-        store.generated.provider.ProviderStub.ProviderSoldOutException msg) {
+        ProviderStub.ProviderSoldOutException msg) {
         faultMessage = msg;
     }
 
-    public store.generated.provider.ProviderStub.ProviderSoldOutException getFaultMessage() {
+    public ProviderStub.ProviderSoldOutException getFaultMessage() {
         return faultMessage;
     }
 }

@@ -7,7 +7,7 @@
 package store.generated.bank;
 
 public class BankWrongCreditCardDetailsExceptionException extends java.lang.Exception {
-    private static final long serialVersionUID = 1447954219797L;
+    private static final long serialVersionUID = 1448480299947L;
     private store.generated.bank.BankStub.BankWrongCreditCardDetailsException faultMessage;
 
     public BankWrongCreditCardDetailsExceptionException() {

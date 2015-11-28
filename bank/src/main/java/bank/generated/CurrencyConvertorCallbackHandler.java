@@ -43,7 +43,7 @@ public abstract class CurrencyConvertorCallbackHandler {
      * override this method for handling normal response from conversionRate operation
      */
     public void receiveResultconversionRate(
-        bank.generated.CurrencyConvertorStub.ConversionRateResponse result) {
+        CurrencyConvertorStub.ConversionRateResponse result) {
     }
 
     /**

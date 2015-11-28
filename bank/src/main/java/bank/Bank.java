@@ -1,7 +1,9 @@
 package bank;
 
+import bank.domain.entities.BankAccount;
+import bank.domain.entities.CreditCard;
+import bank.exceptions.*;
 import bank.generated.CurrencyConvertorStub;
-import exceptions.bank.*;
 import org.apache.axis2.AxisFault;
 
 import java.rmi.RemoteException;

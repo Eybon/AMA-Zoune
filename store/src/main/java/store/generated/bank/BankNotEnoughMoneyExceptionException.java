@@ -7,7 +7,7 @@
 package store.generated.bank;
 
 public class BankNotEnoughMoneyExceptionException extends java.lang.Exception {
-    private static final long serialVersionUID = 1447954219782L;
+    private static final long serialVersionUID = 1448480299929L;
     private store.generated.bank.BankStub.BankNotEnoughMoneyException faultMessage;
 
     public BankNotEnoughMoneyExceptionException() {

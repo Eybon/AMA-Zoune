@@ -7,8 +7,8 @@
 package store.generated.provider;
 
 public class ProviderProductNotFoundExceptionException extends java.lang.Exception {
-    private static final long serialVersionUID = 1447950611792L;
-    private store.generated.provider.ProviderStub.ProviderProductNotFoundException faultMessage;
+    private static final long serialVersionUID = 1448480276015L;
+    private ProviderStub.ProviderProductNotFoundException faultMessage;
 
     public ProviderProductNotFoundExceptionException() {
         super("ProviderProductNotFoundExceptionException");
@@ -28,11 +28,11 @@ public class ProviderProductNotFoundExceptionException extends java.lang.Excepti
     }
 
     public void setFaultMessage(
-        store.generated.provider.ProviderStub.ProviderProductNotFoundException msg) {
+        ProviderStub.ProviderProductNotFoundException msg) {
         faultMessage = msg;
     }
 
-    public store.generated.provider.ProviderStub.ProviderProductNotFoundException getFaultMessage() {
+    public ProviderStub.ProviderProductNotFoundException getFaultMessage() {
         return faultMessage;
     }
 }

@@ -7,7 +7,7 @@
 package store.generated.bank;
 
 public class BankCreditCardNotFoundExceptionException extends java.lang.Exception {
-    private static final long serialVersionUID = 1447954219777L;
+    private static final long serialVersionUID = 1448480299922L;
     private store.generated.bank.BankStub.BankCreditCardNotFoundException faultMessage;
 
     public BankCreditCardNotFoundExceptionException() {

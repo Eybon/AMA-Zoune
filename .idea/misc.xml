@@ -43,7 +43,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/currency/pom.xml" />
+        <option value="$PROJECT_DIR$/exceptions/pom.xml" />
         <option value="$PROJECT_DIR$/generated/pom.xml" />
       </set>
     </option>

@@ -1,11 +1,11 @@
-<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ax2502="http://io.java/xsd" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:ns="http://bank" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ax2501="http://rmi.java/xsd" xmlns:ax2499="http://bank.exceptions/xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://bank">
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ax2462="http://io.java/xsd" xmlns:ax2461="http://rmi.java/xsd" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:ns="http://bank" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ax2459="http://exceptions.bank/xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://bank">
     <wsdl:documentation>Bank</wsdl:documentation>
     <wsdl:types>
-        <xs:schema xmlns:ax2503="http://io.java/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://rmi.java/xsd">
+        <xs:schema xmlns:ax2463="http://io.java/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://rmi.java/xsd">
             <xs:import namespace="http://io.java/xsd"/>
             <xs:complexType name="RemoteException">
                 <xs:complexContent>
-                    <xs:extension base="ax2502:IOException">
+                    <xs:extension base="ax2462:IOException">
                         <xs:sequence>
                             <xs:element minOccurs="0" name="cause" nillable="true" type="xs:anyType"/>
                             <xs:element minOccurs="0" name="message" nillable="true" type="xs:string"/>
@@ -14,55 +14,56 @@
                 </xs:complexContent>
             </xs:complexType>
         </xs:schema>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://exceptions.bank/xsd">
+            <xs:complexType name="BankAccountNotFoundException">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="CreditCardNotFoundException">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="WrongCreditCardDetailsException">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="NotEnoughMoneyException">
+                <xs:sequence/>
+            </xs:complexType>
+            <xs:complexType name="CurrencyChangeRateErrorException">
+                <xs:sequence/>
+            </xs:complexType>
+        </xs:schema>
         <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://io.java/xsd">
             <xs:complexType name="IOException">
                 <xs:sequence/>
             </xs:complexType>
         </xs:schema>
-        <xs:schema xmlns:ax2504="http://rmi.java/xsd" xmlns:ax2500="http://bank.exceptions/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://bank">
-            <xs:import namespace="http://bank.exceptions/xsd"/>
+        <xs:schema xmlns:ax2464="http://rmi.java/xsd" xmlns:ax2460="http://exceptions.bank/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://bank">
+            <xs:import namespace="http://exceptions.bank/xsd"/>
             <xs:import namespace="http://rmi.java/xsd"/>
             <xs:element name="BankBankAccountNotFoundException">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element minOccurs="0" name="BankAccountNotFoundException" nillable="true" type="ax2500:BankAccountNotFoundException"/>
+                        <xs:element minOccurs="0" name="BankAccountNotFoundException" nillable="true" type="ax2460:BankAccountNotFoundException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getStateBankAccount">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="creditcard" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="getStateBankAccountResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:double"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
             <xs:element name="BankRemoteException">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element minOccurs="0" name="RemoteException" nillable="true" type="ax2504:RemoteException"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="BankNotEnoughMoneyException">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element minOccurs="0" name="NotEnoughMoneyException" nillable="true" type="ax2500:NotEnoughMoneyException"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="BankCurrencyChangeRateErrorException">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element minOccurs="0" name="CurrencyChangeRateErrorException" nillable="true" type="ax2500:CurrencyChangeRateErrorException"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="doTransaction">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element minOccurs="0" name="creditcard" nillable="true" type="xs:string"/>
-                        <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string"/>
-                        <xs:element minOccurs="0" name="amount" type="xs:double"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="doTransactionResponse">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element minOccurs="0" name="return" type="xs:boolean"/>
+                        <xs:element minOccurs="0" name="RemoteException" nillable="true" type="ax2461:RemoteException"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
@@ -81,31 +82,17 @@
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
-            <xs:element name="getStateBankAccount">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element minOccurs="0" name="creditcard" nillable="true" type="xs:string"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="getStateBankAccountResponse">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element minOccurs="0" name="return" type="xs:double"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
             <xs:element name="BankCreditCardNotFoundException">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element minOccurs="0" name="CreditCardNotFoundException" nillable="true" type="ax2500:CreditCardNotFoundException"/>
+                        <xs:element minOccurs="0" name="CreditCardNotFoundException" nillable="true" type="ax2460:CreditCardNotFoundException"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
             <xs:element name="BankWrongCreditCardDetailsException">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element minOccurs="0" name="WrongCreditCardDetailsException" nillable="true" type="ax2500:WrongCreditCardDetailsException"/>
+                        <xs:element minOccurs="0" name="WrongCreditCardDetailsException" nillable="true" type="ax2460:WrongCreditCardDetailsException"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
@@ -127,23 +114,36 @@
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
-        </xs:schema>
-        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://bank.exceptions/xsd">
-            <xs:complexType name="BankAccountNotFoundException">
-                <xs:sequence/>
-            </xs:complexType>
-            <xs:complexType name="NotEnoughMoneyException">
-                <xs:sequence/>
-            </xs:complexType>
-            <xs:complexType name="CurrencyChangeRateErrorException">
-                <xs:sequence/>
-            </xs:complexType>
-            <xs:complexType name="CreditCardNotFoundException">
-                <xs:sequence/>
-            </xs:complexType>
-            <xs:complexType name="WrongCreditCardDetailsException">
-                <xs:sequence/>
-            </xs:complexType>
+            <xs:element name="BankNotEnoughMoneyException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="NotEnoughMoneyException" nillable="true" type="ax2460:NotEnoughMoneyException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="BankCurrencyChangeRateErrorException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="CurrencyChangeRateErrorException" nillable="true" type="ax2460:CurrencyChangeRateErrorException"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="doTransaction">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="creditcard" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="amount" type="xs:double"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="doTransactionResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
         </xs:schema>
     </wsdl:types>
     <wsdl:message name="checkCreditCardRequest">

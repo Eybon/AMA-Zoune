@@ -7,7 +7,7 @@
 package store.generated.bank;
 
 public class BankRemoteExceptionException extends java.lang.Exception {
-    private static final long serialVersionUID = 1447954219788L;
+    private static final long serialVersionUID = 1448480299935L;
     private store.generated.bank.BankStub.BankRemoteException faultMessage;
 
     public BankRemoteExceptionException() {
