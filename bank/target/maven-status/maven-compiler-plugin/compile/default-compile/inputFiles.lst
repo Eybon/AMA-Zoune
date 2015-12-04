@@ -4,7 +4,6 @@ C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\applic
 C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\exceptions\NotEnoughMoneyException.java
 C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\exceptions\BankAccountNotFoundException.java
 C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\infrastructure\factories\BankDataFactory.java
-C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\Bank.java
 C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\exceptions\CreditCardNotFoundException.java
 C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\generated\CurrencyConvertorCallbackHandler.java
 C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\infrastructure\repositories\EventStoreRepository.java
@@ -13,6 +12,7 @@ C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\domain
 C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\api\services\IDomainService.java
 C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\api\repositories\Repository.java
 C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\domain\entities\CreditCard.java
+C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\domain\entities\Currency.java
 C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\infrastructure\repositories\WriteResult.java
 C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\domain\services\impl\Service.java
 C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\api\repositories\EventRepository.java

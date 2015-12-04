@@ -7,284 +7,242 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="574e2515-9716-4d7c-8d7b-b092e3eab080" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/webapp/app/js/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/webapp/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/web.xml" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\generated\CurrencyConvertor.asmx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\generated\CurrencyConvertorCallbackHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\generated\CurrencyConvertorStub.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\app\js\controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\common\.classpath" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\common\.project" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\common\common.eml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\common\common.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\common\pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\common\src\main\java\common\IProduct.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\common\target\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\currency\currency.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\currency\pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\currency\target\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\exceptions\exceptions.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\exceptions\pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\exceptions\target\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\out\artifacts\client_war_exploded\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\out\artifacts\client_war_exploded\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\provider\src\main\java\provider\Provider.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\Store.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\generated\bank\Bank.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\generated\bank\BankBankAccountNotFoundExceptionException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\generated\bank\BankCallbackHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\generated\bank\BankCreditCardNotFoundExceptionException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\generated\bank\BankCurrencyChangeRateErrorExceptionException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\generated\bank\BankNotEnoughMoneyExceptionException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\generated\bank\BankRemoteExceptionException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\generated\bank\BankStub.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\generated\bank\BankWrongCreditCardDetailsExceptionException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\generated\provider\Provider.wsdl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\generated\provider\ProviderCallbackHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\generated\provider\ProviderProductNotFoundExceptionException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\generated\provider\ProviderSoldOutExceptionException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\generated\provider\ProviderStub.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\target\MANIFEST.MF" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\BankAccount.java" afterPath="$PROJECT_DIR$/bank/src/main/java/bank/domain/entities/BankAccount.java" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\CreditCard.java" afterPath="$PROJECT_DIR$/bank/src/main/java/bank/domain/entities/CreditCard.java" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\404.html" afterPath="$PROJECT_DIR$/client/src/main/webapp/404.html" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\apparel.html" afterPath="$PROJECT_DIR$/client/src/main/webapp/apparel.html" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery-xml2json\.bower.json" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery-xml2json/.bower.json" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery-xml2json\Gruntfile.coffee" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery-xml2json/Gruntfile.coffee" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery-xml2json\README.markdown" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery-xml2json/README.markdown" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery-xml2json\bower.json" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery-xml2json/bower.json" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery-xml2json\karma-debug.cmd" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery-xml2json/karma-debug.cmd" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery-xml2json\karma.conf.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery-xml2json/karma.conf.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery-xml2json\package.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery-xml2json/package.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery-xml2json\package.json" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery-xml2json/package.json" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery-xml2json\smart.json" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery-xml2json/smart.json" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery-xml2json\src\xml2json.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery-xml2json/src/xml2json.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery-xml2json\test\mocha.opts" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery-xml2json/test/mocha.opts" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery-xml2json\test\xml2json.coffee" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery-xml2json/test/xml2json.coffee" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery-xml2json\versions.json" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery-xml2json/versions.json" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\.bower.json" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/.bower.json" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\CONTRIBUTING.md" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/CONTRIBUTING.md" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\GNU-GPLv3-LICENSE.txt" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/GNU-GPLv3-LICENSE.txt" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\Icon.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/Icon.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\README.md" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/README.md" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\bower.json" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/bower.json" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\doc\classes.md" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/doc/classes.md" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\doc\options.md" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/doc/options.md" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\extern.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/extern.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\jquery.soap.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/jquery.soap.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\package.json" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/package.json" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\web\demo.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/web/demo.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\web\index.html" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/web/index.html" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\web\jquery.xml2json.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/web/jquery.xml2json.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\web\main.css" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/web/main.css" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\web\proxyPlus.php" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/web/proxyPlus.php" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\web\xml\davidwalsh.xml" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/web/xml/davidwalsh.xml" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\web\xml\doedje.xml" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/web/xml/doedje.xml" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\web\xml\fake-soap-response.xml" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/web/xml/fake-soap-response.xml" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\web\xml\json-soap-response.xml" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/web/xml/json-soap-response.xml" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery.soap\web\xml\w3schools-books.xml" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery.soap/web/xml/w3schools-books.xml" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\.bower.json" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/.bower.json" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\MIT-LICENSE.txt" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/MIT-LICENSE.txt" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\bower.json" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/bower.json" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\dist\jquery.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/dist/jquery.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\dist\jquery.min.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/dist/jquery.min.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\dist\jquery.min.map" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/dist/jquery.min.map" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\ajax.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/ajax.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\ajax\jsonp.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/ajax/jsonp.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\ajax\load.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/ajax/load.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\ajax\parseJSON.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/ajax/parseJSON.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\ajax\parseXML.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/ajax/parseXML.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\ajax\script.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/ajax/script.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\ajax\var\nonce.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/ajax/var/nonce.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\ajax\var\rquery.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/ajax/var/rquery.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\ajax\xhr.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/ajax/xhr.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\attributes.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/attributes.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\attributes\attr.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/attributes/attr.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\attributes\classes.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/attributes/classes.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\attributes\prop.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/attributes/prop.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\attributes\support.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/attributes/support.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\attributes\val.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/attributes/val.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\callbacks.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/callbacks.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\core.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/core.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\core\access.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/core/access.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\core\init.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/core/init.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\core\parseHTML.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/core/parseHTML.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\core\ready.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/core/ready.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\core\var\rsingleTag.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/core/var/rsingleTag.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\css.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/css.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\css\addGetHookIf.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/css/addGetHookIf.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\css\curCSS.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/css/curCSS.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\css\defaultDisplay.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/css/defaultDisplay.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\css\hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\css\support.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/css/support.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\css\swap.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/css/swap.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\css\var\cssExpand.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/css/var/cssExpand.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\css\var\getStyles.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/css/var/getStyles.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\css\var\isHidden.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/css/var/isHidden.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\css\var\rmargin.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/css/var/rmargin.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\css\var\rnumnonpx.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/css/var/rnumnonpx.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\data.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/data.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\data\Data.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/data/Data.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\data\accepts.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/data/accepts.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\data\var\data_priv.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/data/var/data_priv.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\data\var\data_user.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/data/var/data_user.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\deferred.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/deferred.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\deprecated.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/deprecated.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\dimensions.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/dimensions.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\effects.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/effects.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\effects\Tween.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/effects/Tween.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\effects\animatedSelector.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/effects/animatedSelector.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\event.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/event.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\event\ajax.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/event/ajax.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\event\alias.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/event/alias.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\event\support.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/event/support.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\exports\amd.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/exports/amd.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\exports\global.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/exports/global.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\intro.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/intro.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\jquery.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/jquery.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\manipulation.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/manipulation.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\manipulation\_evalUrl.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/manipulation/_evalUrl.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\manipulation\support.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/manipulation/support.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\manipulation\var\rcheckableType.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/manipulation/var/rcheckableType.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\offset.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/offset.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\outro.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/outro.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\queue.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/queue.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\queue\delay.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/queue/delay.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\selector-native.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/selector-native.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\selector-sizzle.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/selector-sizzle.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\selector.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/selector.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\serialize.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/serialize.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\sizzle\dist\sizzle.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/sizzle/dist/sizzle.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\sizzle\dist\sizzle.min.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/sizzle/dist/sizzle.min.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\sizzle\dist\sizzle.min.map" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/sizzle/dist/sizzle.min.map" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\traversing.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/traversing.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\traversing\findFilter.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/traversing/findFilter.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\traversing\var\rneedsContext.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/traversing/var/rneedsContext.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\var\arr.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/var/arr.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\var\class2type.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/var/class2type.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\var\concat.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/var/concat.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\var\hasOwn.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/var/hasOwn.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\var\indexOf.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/var/indexOf.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\var\pnum.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/var/pnum.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\var\push.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/var/push.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\var\rnotwhite.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/var/rnotwhite.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\var\slice.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/var/slice.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\var\strundefined.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/var/strundefined.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\var\support.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/var/support.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\var\toString.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/var/toString.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\bower_components\jquery\src\wrap.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/bower_components/jquery/src/wrap.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\checkout.html" afterPath="$PROJECT_DIR$/client/src/main/webapp/checkout.html" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\contact.html" afterPath="$PROJECT_DIR$/client/src/main/webapp/contact.html" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\css\bootstrap.css" afterPath="$PROJECT_DIR$/client/src/main/webapp/css/bootstrap.css" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\css\component.css" afterPath="$PROJECT_DIR$/client/src/main/webapp/css/component.css" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\css\etalage.css" afterPath="$PROJECT_DIR$/client/src/main/webapp/css/etalage.css" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\css\magnific-popup.css" afterPath="$PROJECT_DIR$/client/src/main/webapp/css/magnific-popup.css" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\css\style.css" afterPath="$PROJECT_DIR$/client/src/main/webapp/css/style.css" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\1.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/1.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\Thumbs.db" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/Thumbs.db" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\apparel.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/apparel.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\arrow2.gif" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/arrow2.gif" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\close.png" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/close.png" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\fb.png" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/fb.png" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\grid_view.png" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/grid_view.png" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\i1.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/i1.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\i2.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/i2.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\i3.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/i3.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\i4.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/i4.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\i5.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/i5.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\i6.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/i6.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\i_zoom.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/i_zoom.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\icon1.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/icon1.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\icon2.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/icon2.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\icon3.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/icon3.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\icon4.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/icon4.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\icon5.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/icon5.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\icon6.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/icon6.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\icon7.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/icon7.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\img-sprite.png" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/img-sprite.png" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\img-sprite.psd" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/img-sprite.psd" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\list_view.png" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/list_view.png" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\logo.png" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/logo.png" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\logo.psd" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/logo.psd" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\payment.png" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/payment.png" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\pic1.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/pic1.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\pic10.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/pic10.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\pic11.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/pic11.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\pic12.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/pic12.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\pic13.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/pic13.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\pic2.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/pic2.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\pic3.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/pic3.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\pic4.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/pic4.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\pic5.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/pic5.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\pic6.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/pic6.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\pic7.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/pic7.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\pic8.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/pic8.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\pic9.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/pic9.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\pin.png" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/pin.png" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\s1.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/s1.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\s2.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/s2.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\s3.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/s3.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\s4.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/s4.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\search.png" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/search.png" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\single.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/single.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\smal.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/smal.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\smal1.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/smal1.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\smal2.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/smal2.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\smal3.jpg" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/smal3.jpg" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\tag_arrow.png" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/tag_arrow.png" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\tick1.png" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/tick1.png" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\tw.png" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/tw.png" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\images\zoom.png" afterPath="$PROJECT_DIR$/client/src/main/webapp/images/zoom.png" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\js\angular.min.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/js/angular.min.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\js\cbpViewModeSwitch.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/js/cbpViewModeSwitch.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\js\classie.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/js/classie.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\js\easyResponsiveTabs.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/js/easyResponsiveTabs.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\js\jquery.easydropdown.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/js/jquery.easydropdown.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\js\jquery.etalage.min.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/js/jquery.etalage.min.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\js\jquery.flexisel.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/js/jquery.flexisel.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\js\jquery.magnific-popup.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/js/jquery.magnific-popup.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\js\jquery.min.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/js/jquery.min.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\js\jquery.soap.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/js/jquery.soap.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\js\jquery.wmuSlider.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/js/jquery.wmuSlider.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\js\jquery.xml2json.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/js/jquery.xml2json.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\js\modernizr.custom.js" afterPath="$PROJECT_DIR$/client/src/main/webapp/js/modernizr.custom.js" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\login.html" afterPath="$PROJECT_DIR$/client/src/main/webapp/login.html" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\register.html" afterPath="$PROJECT_DIR$/client/src/main/webapp/register.html" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\single.html" afterPath="$PROJECT_DIR$/client/src/main/webapp/single.html" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\web\w3layouts-license.txt" afterPath="$PROJECT_DIR$/client/src/main/webapp/w3layouts-license.txt" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\currency\src\main\java\currency\Currency.java" afterPath="$PROJECT_DIR$/bank/src/main/java/bank/domain/entities/Currency.java" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\exceptions\src\main\java\exceptions\bank\BankAccountNotFoundException.java" afterPath="$PROJECT_DIR$/bank/src/main/java/bank/exceptions/BankAccountNotFoundException.java" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\exceptions\src\main\java\exceptions\bank\CreditCardNotFoundException.java" afterPath="$PROJECT_DIR$/bank/src/main/java/bank/exceptions/CreditCardNotFoundException.java" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\exceptions\src\main\java\exceptions\bank\CurrencyChangeRateErrorException.java" afterPath="$PROJECT_DIR$/bank/src/main/java/bank/exceptions/CurrencyChangeRateErrorException.java" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\exceptions\src\main\java\exceptions\bank\NotEnoughMoneyException.java" afterPath="$PROJECT_DIR$/bank/src/main/java/bank/exceptions/NotEnoughMoneyException.java" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\exceptions\src\main\java\exceptions\bank\WrongCreditCardDetailsException.java" afterPath="$PROJECT_DIR$/bank/src/main/java/bank/exceptions/WrongCreditCardDetailsException.java" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\exceptions\src\main\java\exceptions\provider\ProductNotFoundException.java" afterPath="$PROJECT_DIR$/provider/src/main/java/provider/exceptions/ProductNotFoundException.java" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\exceptions\src\main\java\exceptions\provider\SoldOutException.java" afterPath="$PROJECT_DIR$/provider/src/main/java/provider/exceptions/SoldOutException.java" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\provider\src\main\java\provider\Product.java" afterPath="$PROJECT_DIR$/provider/src/main/java/provider/domain/entities/Product.java" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\Basket.java" afterPath="$PROJECT_DIR$/store/src/main/java/store/domain/entities/Basket.java" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\Order.java" afterPath="$PROJECT_DIR$/store/src/main/java/store/domain/entities/Order.java" />
-      <change type="MOVED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\src\main\java\store\UserAccount.java" afterPath="$PROJECT_DIR$/store/src/main/java/store/domain/entities/UserAccount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bank/src/main/java/bank/Bank.java" afterPath="$PROJECT_DIR$/bank/src/main/java/bank/Bank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/src/main/java/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/store/src/main/java/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bank/bank.iml" afterPath="$PROJECT_DIR$/bank/bank.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/client.iml" afterPath="$PROJECT_DIR$/client/client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/client_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/client_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\.project" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\src\main\java\bank\Bank.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\bank\target\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\404.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\app\js\controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\apparel.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery-xml2json\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery-xml2json\Gruntfile.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery-xml2json\README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery-xml2json\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery-xml2json\karma-debug.cmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery-xml2json\karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery-xml2json\package.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery-xml2json\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery-xml2json\smart.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery-xml2json\src\xml2json.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery-xml2json\test\mocha.opts" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery-xml2json\test\xml2json.coffee" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery-xml2json\versions.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\GNU-GPLv3-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\Icon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\doc\classes.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\doc\options.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\extern.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\jquery.soap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\web\demo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\web\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\web\jquery.xml2json.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\web\main.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\web\proxyPlus.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\web\xml\davidwalsh.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\web\xml\doedje.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\web\xml\fake-soap-response.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\web\xml\json-soap-response.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery.soap\web\xml\w3schools-books.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\dist\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\dist\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\dist\jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\ajax\jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\ajax\load.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\ajax\parseJSON.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\ajax\parseXML.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\ajax\script.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\ajax\var\nonce.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\ajax\var\rquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\ajax\xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\attributes\attr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\attributes\classes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\attributes\prop.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\attributes\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\attributes\val.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\core.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\core\access.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\core\init.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\core\parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\core\ready.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\core\var\rsingleTag.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\css.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\css\addGetHookIf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\css\curCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\css\defaultDisplay.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\css\hiddenVisibleSelectors.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\css\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\css\swap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\css\var\cssExpand.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\css\var\getStyles.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\css\var\isHidden.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\css\var\rmargin.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\css\var\rnumnonpx.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\data\Data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\data\accepts.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\data\var\data_priv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\data\var\data_user.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\effects.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\effects\Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\effects\animatedSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\event.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\event\ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\event\alias.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\event\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\exports\amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\exports\global.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\intro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\manipulation\_evalUrl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\manipulation\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\manipulation\var\rcheckableType.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\offset.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\outro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\queue.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\queue\delay.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\selector-native.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\selector-sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\selector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\sizzle\dist\sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\sizzle\dist\sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\sizzle\dist\sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\traversing\findFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\traversing\var\rneedsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\var\arr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\var\class2type.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\var\concat.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\var\hasOwn.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\var\indexOf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\var\pnum.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\var\push.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\var\rnotwhite.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\var\slice.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\var\strundefined.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\var\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\var\toString.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\bower_components\jquery\src\wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\checkout.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\contact.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\css\component.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\css\etalage.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\css\magnific-popup.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\apparel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\arrow2.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\close.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\fb.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\grid_view.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\i1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\i2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\i3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\i4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\i5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\i6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\i_zoom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\icon1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\icon2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\icon3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\icon4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\icon5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\icon6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\icon7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\img-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\img-sprite.psd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\list_view.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\logo.psd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\payment.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\pic1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\pic10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\pic11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\pic12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\pic13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\pic2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\pic3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\pic4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\pic5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\pic6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\pic7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\pic8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\pic9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\pin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\s1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\s2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\s3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\s4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\search.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\single.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\smal.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\smal1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\smal2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\smal3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\tag_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\tick1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\tw.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\images\zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\js\angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\js\app.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\js\cbpViewModeSwitch.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\js\classie.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\js\easyResponsiveTabs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\js\jquery.easydropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\js\jquery.etalage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\js\jquery.flexisel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\js\jquery.magnific-popup.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\js\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\js\jquery.soap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\js\jquery.wmuSlider.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\js\jquery.xml2json.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\js\modernizr.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\login.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\register.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\single.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\Client\w3layouts-license.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\client\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\provider\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\provider\.project" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\provider\target\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\provider\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\provider\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\provider\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\provider\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\.project" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\target\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maxime\Desktop\fac\M2\Services\AMA-Zoune\store\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bank/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/bank/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bank/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/bank/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bank/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/bank/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bank/pom.xml" afterPath="$PROJECT_DIR$/bank/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provider/pom.xml" afterPath="$PROJECT_DIR$/provider/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/pom.xml" afterPath="$PROJECT_DIR$/store/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provider/provider.iml" afterPath="$PROJECT_DIR$/provider/provider.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/store.iml" afterPath="$PROJECT_DIR$/store/store.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AMA-Zoune.iws" />
@@ -325,51 +283,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EmptyBasketException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/src/main/java/store/exceptions/EmptyBasketException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoOrderKnownException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/src/main/java/store/exceptions/NoOrderKnownException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/src/main/java/store/api/factories/DataFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="11" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ETypeDataFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/src/main/java/store/infrastructure/factories/ETypeDataFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StoreDataFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/store/src/main/java/store/infrastructure/factories/StoreDataFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+            <state vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="646">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Service.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/src/main/java/store/domain/services/impl/Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3176" max-vertical-offset="3757">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/src/main/java/store/application/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="1496">
+              <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1340" max-vertical-offset="2601">
+              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BankDataFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank/src/main/java/bank/infrastructure/factories/BankDataFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3488806" vertical-offset="816" max-vertical-offset="1496">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank/src/main/java/build.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1972">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Service.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bank/src/main/java/bank/domain/services/impl/Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="2057">
+              <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="101" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2242" max-vertical-offset="2822">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -380,49 +386,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="799">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="26" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WriteResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/src/main/java/store/infrastructure/repositories/WriteResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="646">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding>
-                <element signature="e#443#475#0" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Basket.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/src/main/java/store/domain/entities/Basket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.17586207" vertical-offset="255" max-vertical-offset="850">
-              <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WriteResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider/src/main/java/provider/infrastructure/repositories/WriteResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="646">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="3" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -436,7 +402,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/bank/pom.xml" />
         <option value="$PROJECT_DIR$/store/pom.xml" />
         <option value="$PROJECT_DIR$/client/webapp/js/app.js" />
         <option value="$PROJECT_DIR$/store/src/main/java/store/domain/services/impl/MapBasket.java" />
@@ -486,6 +451,7 @@
         <option value="$PROJECT_DIR$/store/src/main/java/store/infrastructure/repositories/EventStoreRepository.java" />
         <option value="$PROJECT_DIR$/store/src/main/java/store/infrastructure/repositories/WriteResult.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/bank/pom.xml" />
       </list>
     </option>
   </component>
@@ -592,6 +558,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -612,8 +580,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -945,11 +911,14 @@
       <workItem from="1448561247666" duration="1936000" />
       <workItem from="1448607741437" duration="19428000" />
       <workItem from="1448698397385" duration="9870000" />
+      <workItem from="1448751264045" duration="5823000" />
+      <workItem from="1448818077182" duration="308000" />
+      <workItem from="1449081179965" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124985000" />
+    <option name="totallyTimeSpent" value="131134000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -972,38 +941,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32792208" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39027026" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1119403" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24786781" sideWeight="0.49919486" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24786781" sideWeight="0.50080514" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11363637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24786781" sideWeight="0.49919486" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24786781" sideWeight="0.50080514" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24786781" sideWeight="0.50080514" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39069265" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1033,35 +1002,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bank/src/main/java/bank/api/repositories/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/src/main/java/bank/domain/entities/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1173">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/src/main/java/bank/domain/entities/CreditCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bank/src/main/java/bank/domain/entities/Currency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1069,25 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/src/main/java/bank/domain/services/impl/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="2057">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/src/main/java/bank/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="2754">
-          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="130" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1095,7 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
           <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,7 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,12 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1124,7 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,7 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,7 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,7 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,7 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="44336">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,7 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="12" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,7 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1180,7 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,7 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
           <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1196,7 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1204,7 +1111,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,7 +1118,167 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/provider/domain/valueobjects/impl/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/provider/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/src/main/java/bank/infrastructure/repositories/EventStoreRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1037">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="25" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/src/main/java/bank/infrastructure/repositories/WriteResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/api/repositories/EventRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/api/repositories/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/api/services/IDomainService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1972">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/domain/entities/BasketItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/domain/entities/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="612">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/domain/entities/UserAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="410" max-vertical-offset="1054">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/api/valueobjects/IData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/domain/valueobjects/impl/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/exceptions/AccountNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/exceptions/EmptyBasketException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/exceptions/NoOrderKnownException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/infrastructure/factories/ETypeDataFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/api/factories/DataFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/provider/infrastructure/repositories/WriteResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="646">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/infrastructure/repositories/WriteResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="646">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/domain/entities/Basket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="850">
+          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/provider/infrastructure/factories/ProviderDataFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="646">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/provider/infrastructure/repositories/EventStoreRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1224,185 +1290,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/provider/domain/valueobjects/impl/Data.java">
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/infrastructure/repositories/EventStoreRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/provider/application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/src/main/java/bank/infrastructure/repositories/EventStoreRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1037">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="25" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="799">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="26" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/provider/infrastructure/repositories/EventStoreRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/src/main/java/bank/infrastructure/repositories/WriteResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank/src/main/java/bank/infrastructure/factories/BankDataFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/provider/infrastructure/factories/ProviderDataFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="e#871#887#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/api/repositories/EventRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/api/repositories/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/api/services/IDomainService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1972">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/domain/entities/BasketItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/domain/entities/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="612">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/domain/entities/UserAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="410" max-vertical-offset="1054">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/api/valueobjects/IData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/domain/services/impl/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3757">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/domain/valueobjects/impl/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/exceptions/AccountNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/exceptions/EmptyBasketException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/exceptions/NoOrderKnownException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/infrastructure/factories/ETypeDataFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/api/factories/DataFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="11" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1410,48 +1304,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/infrastructure/repositories/EventStoreRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="799">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="26" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/provider/infrastructure/repositories/WriteResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="646">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="14" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/infrastructure/repositories/WriteResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="646">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding>
-            <element signature="e#443#475#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/domain/entities/Basket.java">
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/domain/services/impl/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3757">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/store/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
+          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/src/main/java/bank/domain/services/impl/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2057">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="2822">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/bank/src/main/java/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.17586207" vertical-offset="255" max-vertical-offset="850">
-          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1972">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1340" max-vertical-offset="2601">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/src/main/java/bank/infrastructure/factories/BankDataFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3488806" vertical-offset="816" max-vertical-offset="1496">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="38" />
           <folding />
         </state>
       </provider>
